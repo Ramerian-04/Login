@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-image: url(bck.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    
+
+}
+#container{
+    width: 100%;
+
+}
+
+form{
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    margin: 0 auto;
+    margin-top: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border: 1px solid rgb(27, 16, 16);
+    border-radius: 15px;
+
+}
+
+.data input
+{
+  width: 300px;
+  height: 30px;
+  padding-left: 10px;
+  background-color: rgb(149, 229, 231);
+}
+.data a{
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(230, 228, 226);
+}
+
+.btn{
+    display: flex;
+    justify-content:center;
+
+}
+.btn input{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(57, 142, 240);
+    color: rgb(247, 247, 247);
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 200px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+
+}
+.btn input:hover{
+    color: black;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.data a:hover{
+    color: rgb(0, 0, 0);
+}
+
